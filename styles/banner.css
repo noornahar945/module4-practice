@@ -1,9 +1,13 @@
 .banner{
     display: flex;
     background-color: lightblue;
+    padding: 20px;
 }
 .banner-content{
-    flex:1; /*flex 1 ei property sudu child ei deya jay */
+     /*flex:1; /*flex 1 ei property sudu child ei deya jay rrrr 2 ta div ei 1 deya mne soman soman jayga nibe */
+     flex:2; /* flex 2 deya mne hocceh 2 vag jayga content er div nibe*/
+     text-align: center;/* eta hocceh likha gulo k center e anbe */
+   /* align-items: center; /* question eta dile kno ei khetre holo na? kno text align deya laglo?*/
 }
 .banner-picture{
     flex:1; /*flex 1 ei property sudu child ei deya jay */
@@ -11,3 +15,13 @@
 .banner-picture img {
     width: 100%;
 }
+.banner-content button{
+    background-color: blue;
+    padding:5px 20px;
+    border-radius: 5px; /*eta dile box er kona gulo ektu round hbe*/
+    cursor: pointer; /* eta dile button e rakhte pointer ta change hobe dekhte  */
+}
+.banner-content button:hover {
+    background-color: brown;
+}
+/* question hover korle to pointer and color automatic change hoy tahole kno curso pointer korlam alada kore? */
