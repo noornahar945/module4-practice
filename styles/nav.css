@@ -1,0 +1,15 @@
+nav ul{
+    display:flex; /*ek line e niye asar jonno eta diyeci*/
+    list-style: none; /* eta dile fota fota dot gulo cole jabe  */
+}
+nav ul li a{
+    text-decoration:none ; /*eta dile anchor er karone je underline ascheh seta chole jabe*/
+}
+nav ul li{
+    /* margin: 10px; */
+    margin-right: 10px;
+    padding: 0 8px;
+}
+nav ul li:hover{
+    background-color: lightgray;
+}
