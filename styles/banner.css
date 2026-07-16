@@ -1,0 +1,13 @@
+.banner{
+    display: flex;
+    background-color: lightblue;
+}
+.banner-content{
+    flex:1; /*flex 1 ei property sudu child ei deya jay */
+}
+.banner-picture{
+    flex:1; /*flex 1 ei property sudu child ei deya jay */
+}
+.banner-picture img {
+    width: 100%;
+}
