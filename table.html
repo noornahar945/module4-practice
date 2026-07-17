@@ -5,12 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>table</title>
     <style>
+        table{
+           border-collapse: collapse;
+            /* border-collapse: collapse; eta dile pore dekte fully solid line er moto table hbe , kono break thakbe na line e */
+        }
         td, th{
             border: 1px solid gray;
+            padding: 3px 10px;
         }
         th{
             background-color: antiquewhite;
         }
+        tfoot td{
+            text-align: center;
+            font-size: 0.5rem;
+        }
+
     </style>
 </head>
 <body>
@@ -21,6 +31,7 @@
             table html
         </h2>
         <table>
+            <caption>data for players</caption>
             <thead>
                 <tr>
                     <th>name</th>
@@ -45,6 +56,11 @@
                     <td> neymar@gmail.com </td>
                 </tr>
             </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">by fifa brother </td>
+                </tr>
+            </tfoot>
         </table>
         <ul>
             <li>table:table</li>
@@ -53,6 +69,7 @@
             <li>table row:tr</li>
             <li>table data:td</li>
             <li>table heading :th</li>
+            <li>table footer:tfoot</li>
         </ul>
     </main>
 </body>
